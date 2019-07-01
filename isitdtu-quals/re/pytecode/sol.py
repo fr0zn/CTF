@@ -41,7 +41,6 @@
 
 flag = [' '] * 30
 
-
 flag[0] = 'I'
 flag[1] = 'S'
 flag[2] = 'I'
@@ -63,30 +62,21 @@ flag[17] = 'k'
 flag[18] = '3'
 flag[19] = '_' # No rule
 flag[20] = 'b'
-
 flag[21] = ':' # NO RULE
-
 flag[22] = 't'
 flag[23] = '3'
 flag[24] = '_' # No rule
 flag[25] = 'C'
-
 flag[26] = '0'
 flag[27] = 'd'
 flag[28] = '3'
 flag[29] = '}'
-
-# same
-
-# same
 
 tmp = 0
 for i in flag:
     tmp += ord(i)
 
 print tmp
-
-# print flag
 
 print ''.join(flag)
 
